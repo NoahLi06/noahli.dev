@@ -78,22 +78,27 @@ function App() {
   };
 
   return (
-    <div className="terminal" ref={terminalRef} onClick={focusInput}>
-      {history.map((line, index) => (
-        <div className="history-line" key={index}>
-          {line}
+    <div className="app-container">
+      <div className="static-header">
+        <p>noahli.dev</p>
+      </div>
+      <div className="terminal" ref={terminalRef} onClick={focusInput}>
+        {history.map((line, index) => (
+          <div className="history-line" key={index}>
+            {line}
+          </div>
+        ))}
+        <div className="input-line">
+          <Prompt />
+          <input
+            type="text"
+            className="terminal-input"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={handleKeyDown}
+            ref={inputRef}
+          />
         </div>
-      ))}
-      <div className="input-line">
-        <Prompt />
-        <input
-          type="text"
-          className="terminal-input"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={handleKeyDown}
-          ref={inputRef}
-        />
       </div>
     </div>
   );
