@@ -15,31 +15,26 @@ const Prompt: React.FC = () => {
 };
 
 function App() {
-  // State for the current input
   const [input, setInput] = useState<string>("");
 
-  // State for the command history. It's an array of React Nodes (JSX)
-  const [history, setHistory] = useState<React.ReactNode[]>([<Help key="0" />]);
-
-  // Refs for the input and terminal window
+  const [history, setHistory] = useState<React.ReactNode[]>([
+    <p key="0">type 'help' to get started</p>,
+  ]);
   const inputRef = useRef<HTMLInputElement>(null);
   const terminalRef = useRef<HTMLDivElement>(null);
 
-  // Focus the input when the component mounts
   useEffect(() => {
     if (inputRef.current) {
       inputRef.current.focus();
     }
   }, []);
 
-  // Scroll to the bottom whenever history changes
   useEffect(() => {
     if (terminalRef.current) {
       terminalRef.current.scrollTop = terminalRef.current.scrollHeight;
     }
   }, [history]);
 
-  // Type the keyboard event
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
       e.preventDefault();
@@ -47,7 +42,6 @@ function App() {
       const command = input.trim().toLowerCase();
       let output: React.ReactNode;
 
-      // This is the history line that shows what the user typed
       const commandHistoryLine = (
         <div key={history.length}>
           <Prompt /> {input}
@@ -72,13 +66,11 @@ function App() {
           output = <CommandNotFound command={command} />;
       }
 
-      // Add the command and its output to history
       setHistory([...history, commandHistoryLine, output]);
-      setInput(""); // Clear the input
+      setInput("");
     }
   };
 
-  // Focus the input when the user clicks anywhere in the terminal
   const focusInput = () => {
     if (inputRef.current) {
       inputRef.current.focus();
