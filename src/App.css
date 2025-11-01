@@ -1,0 +1,69 @@
+:root {
+  --background: #1e1e1e;
+  --foreground: #d4d4d4;
+  --prompt: #569cd6;
+  --green: #0dbc79;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: "Consolas", "Menlo", "Courier New", monospace;
+  font-size: 16px;
+}
+
+/* The main terminal window */
+.terminal {
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box; /* Ensures padding doesn't add to height */
+  cursor: text; /* Show a text cursor anywhere */
+}
+
+/* History output */
+.history-line {
+  margin-bottom: 5px;
+}
+
+/* The input area at the bottom */
+.input-line {
+  display: flex;
+}
+
+.prompt-text {
+  color: var(--prompt);
+  margin-right: 8px;
+}
+
+.prompt-text span {
+  color: var(--green);
+}
+
+/* The actual <input> element */
+.terminal-input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  color: var(--foreground);
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+}
+
+/* Styles for command outputs */
+.output-component ul {
+  list-style-type: none;
+  padding-left: 15px;
+}
+.output-component li {
+  margin-bottom: 5px;
+}
+.output-component a {
+  color: var(--green);
+  text-decoration: none;
+}
+.output-component a:hover {
+  text-decoration: underline;
+}
