@@ -13,7 +13,8 @@ const Help: React.FC = () => {
           <strong>about</strong> - please hire me :)
         </li>
         <li>
-          <strong>projects</strong> - current work in progress
+          <strong>projects</strong> - current work in progress (i mean
+          technically this is a project)
         </li>
         <li>
           <strong>clear</strong> - clears the terminal screen
