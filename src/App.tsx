@@ -5,6 +5,7 @@ import Help from "./components/Help.tsx";
 import About from "./components/About.tsx";
 import Projects from "./components/Projects.tsx";
 import CommandNotFound from "./components/CommandNotFound.tsx";
+import Socials from "./components/Socials.tsx";
 
 const Prompt: React.FC = () => {
   return (
@@ -62,6 +63,9 @@ function App() {
           setHistory([]); // Clear history
           setInput("");
           return;
+        case "socials":
+          output = <Socials />;
+          break;
         default:
           output = <CommandNotFound command={command} />;
       }

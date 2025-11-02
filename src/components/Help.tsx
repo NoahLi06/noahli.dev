@@ -14,7 +14,10 @@ const Help: React.FC = () => {
         </li>
         <li>
           <strong>projects</strong> - current work in progress (i mean
-          technically this is a project)
+          technically this is a project hehe)
+        </li>
+        <li>
+          <strong>socials</strong> - if you want to stalk me
         </li>
         <li>
           <strong>clear</strong> - clears the terminal screen
