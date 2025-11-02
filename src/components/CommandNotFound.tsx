@@ -1,6 +1,5 @@
 import React from "react";
 
-// Define the shape of the props this component expects
 interface CommandNotFoundProps {
   command: string;
 }

@@ -3,7 +3,7 @@ import React from "react";
 const Help: React.FC = () => {
   return (
     <div className="output-component">
-      <p>noahli.dev</p>
+      {/* <p>noahli.dev</p> */}
       <p>select:</p>
       <ul>
         <li>

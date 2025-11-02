@@ -4,7 +4,7 @@ const About: React.FC = () => {
   return (
     <div className="output-component">
       <p>
-        Hi, I'm Noah. I'm a junior @{" "}
+        hey, I'm Noah. I'm a junior @{" "}
         <a
           href="https://www.wisc.edu/"
           target="_blank"
@@ -12,18 +12,38 @@ const About: React.FC = () => {
         >
           University of Wisconsin-Madison
         </a>
-        .
+        &nbsp;studying a double major in computer science & data science.
       </p>
       <p>
-        I'm passionate about building clean, efficient, and user-friendly web
-        applications. My skills include:
+        I'm passionate about building apps and using data to optimize user
+        experience. My skills include:
       </p>
       <ul>
         <li>- Python</li>
-        <li>- React(this website is being coded using this btw)</li>
-        <li>- eating out</li>
-        <li>- watching FC Barcelona & cat videos</li>
+        <li>- Frontend (HTML/CSS, react)</li>
+        <li>
+          - Data Structures & Algorithms (
+          <a
+            href="https://www.reddit.com/r/UWMadison/comments/18t7mby/cs577/"
+            target="_blank"
+          >
+            CS 577
+          </a>{" "}
+          is very very fun)
+        </li>
+        <li>- Data Science</li>
       </ul>
+      <p>
+        I'm currently an Engineering Intern at{" "}
+        <a
+          href="https://www.caterpillar.com/en.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Caterpillar
+        </a>
+        !
+      </p>
     </div>
   );
 };
