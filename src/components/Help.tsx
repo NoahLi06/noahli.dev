@@ -22,6 +22,9 @@ const Help: React.FC = () => {
           <strong>socials</strong> - if you want to stalk me
         </li>
         <li>
+          <strong>github</strong> - my repos
+        </li>
+        <li>
           <strong>clear</strong> - clears the terminal screen
         </li>
       </ul>

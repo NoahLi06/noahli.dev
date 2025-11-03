@@ -6,6 +6,7 @@ import Projects from "./components/Projects.tsx";
 import CommandNotFound from "./components/CommandNotFound.tsx";
 import Socials from "./components/Socials.tsx";
 import Email from "./components/Email.tsx";
+import Github from "./components/Github.tsx";
 
 const Prompt: React.FC = () => {
   return (
@@ -64,6 +65,9 @@ function App() {
           break;
         case "contact":
           output = <Email />;
+          break;
+        case "github":
+          output = <Github />;
           break;
         case "clear":
           setHistory([]);
