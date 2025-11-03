@@ -11,7 +11,7 @@ const Socials: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn
+            linkedIn
           </a>
         </li>
         <li>
@@ -20,7 +20,7 @@ const Socials: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Instagram
+            instagram
           </a>
         </li>
       </ul>

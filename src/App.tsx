@@ -6,6 +6,7 @@ import About from "./components/About.tsx";
 import Projects from "./components/Projects.tsx";
 import CommandNotFound from "./components/CommandNotFound.tsx";
 import Socials from "./components/Socials.tsx";
+import Email from "./components/Email.tsx";
 
 const Prompt: React.FC = () => {
   return (
@@ -59,13 +60,16 @@ function App() {
         case "projects":
           output = <Projects />;
           break;
-        case "clear":
-          setHistory([]); // Clear history
-          setInput("");
-          return;
         case "socials":
           output = <Socials />;
           break;
+        case "contact":
+          output = <Email />;
+          break;
+        case "clear":
+          setHistory([]);
+          setInput("");
+          return;
         default:
           output = <CommandNotFound command={command} />;
       }

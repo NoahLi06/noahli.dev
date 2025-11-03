@@ -17,6 +17,9 @@ const Help: React.FC = () => {
           technically this is a project hehe)
         </li>
         <li>
+          <strong>contact</strong> - if you want to reach out
+        </li>
+        <li>
           <strong>socials</strong> - if you want to stalk me
         </li>
         <li>
