@@ -84,7 +84,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="static-header">
-        <p>noahli.dev</p>
+        <p>Noah Li's terminal</p>
         <p>
           <br></br>
           <span className="about-me-home-text">

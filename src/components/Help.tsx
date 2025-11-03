@@ -10,7 +10,7 @@ const Help: React.FC = () => {
           <strong>help</strong> - shows this help message
         </li>
         <li>
-          <strong>about</strong> - please hire me :)
+          <strong>about</strong> - if you're curious
         </li>
         <li>
           <strong>projects</strong> - current work in progress (i mean
