@@ -6,7 +6,9 @@ const Github: React.FC = () => {
       <ul>
         <li>
           my&nbsp;
-          <a href="https://github.com/NoahLi06">github</a>
+          <a href="https://github.com/NoahLi06" target="_blank">
+            github
+          </a>
         </li>
       </ul>
     </div>
