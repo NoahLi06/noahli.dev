@@ -92,7 +92,7 @@ function App() {
         <p>
           <br></br>
           <span className="about-me-home-text">
-            cs & ds @ UW-Madison | Engineering Intern @ Caterpillar
+            Engineering Intern @ Caterpillar | cs & ds @ UW-Madison
           </span>
         </p>
       </div>
