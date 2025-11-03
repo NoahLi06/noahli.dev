@@ -7,10 +7,10 @@ const Help: React.FC = () => {
       <p>select:</p>
       <ul>
         <li>
-          <strong>help</strong> - shows this help message
+          <strong>help</strong> - shows this help message again
         </li>
         <li>
-          <strong>about</strong> - if you're curious
+          <strong>about</strong> - me
         </li>
         <li>
           <strong>projects</strong> - technically this is a project haha
