@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 // npm run dev
-// Import our command output components
 import Help from "./components/Help.tsx";
 import About from "./components/About.tsx";
 import Projects from "./components/Projects.tsx";
