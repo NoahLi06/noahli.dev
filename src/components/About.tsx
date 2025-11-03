@@ -33,17 +33,6 @@ const About: React.FC = () => {
         </li>
         <li>- Data Science</li>
       </ul>
-      <p>
-        I'm currently an Engineering Intern at{" "}
-        <a
-          href="https://www.caterpillar.com/en.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Caterpillar
-        </a>
-        !
-      </p>
     </div>
   );
 };
