@@ -85,6 +85,12 @@ function App() {
     <div className="app-container">
       <div className="static-header">
         <p>noahli.dev</p>
+        <p>
+          <br></br>
+          <span className="about-me-home-text">
+            cs & ds @ UW-Madison | Engineering Intern @ Caterpillar
+          </span>
+        </p>
       </div>
       <div className="terminal" ref={terminalRef} onClick={focusInput}>
         {history.map((line, index) => (

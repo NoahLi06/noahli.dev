@@ -82,3 +82,7 @@ body {
 .output-component a:hover {
   text-decoration: underline;
 }
+
+.about-me-home-text {
+  color: white;
+}
