@@ -13,7 +13,7 @@ const Help: React.FC = () => {
           <strong>about</strong> - me
         </li>
         <li>
-          <strong>projects</strong> - technically this is a project haha
+          <strong>projects</strong> - technically this is a project
         </li>
         <li>
           <strong>contact</strong> - if you want to reach out
