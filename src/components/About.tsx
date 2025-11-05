@@ -19,8 +19,8 @@ const About: React.FC = () => {
         experience. My skills include:
       </p>
       <ul>
-        <li>- Python</li>
-        <li>- Frontend (HTML/CSS, react)</li>
+        <li>- Full Stack (React, Node.js, MongoDB, TypeScript)</li>
+        <li>- Machine Learning (Python, Tensorflow, SQL, PyTorch)</li>
         <li>
           - Data Structures & Algorithms (
           <a
@@ -31,7 +31,10 @@ const About: React.FC = () => {
           </a>{" "}
           is very very fun)
         </li>
-        <li>- Data Science</li>
+        <li>
+          - Data Science (Python, Pandas, Matplotlib, NumPy, R, Scikit-learn,
+          Selenium, etc.)
+        </li>
       </ul>
     </div>
   );
