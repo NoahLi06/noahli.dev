@@ -13,6 +13,9 @@ const Help: React.FC = () => {
           <strong>about</strong> - me
         </li>
         <li>
+          <strong>whereiam</strong> - where I'm located
+        </li>
+        <li>
           <strong>projects</strong> - technically this is a project
         </li>
         <li>

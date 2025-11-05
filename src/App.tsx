@@ -7,6 +7,7 @@ import CommandNotFound from "./components/CommandNotFound.tsx";
 import Socials from "./components/Socials.tsx";
 import Email from "./components/Email.tsx";
 import Github from "./components/Github.tsx";
+import WhereIAm from "./components/WhereIAm.tsx";
 
 const Prompt: React.FC = () => {
   return (
@@ -56,6 +57,9 @@ function App() {
           break;
         case "about":
           output = <About />;
+          break;
+        case "whereiam":
+          output = <WhereIAm />;
           break;
         case "projects":
           output = <Projects />;
