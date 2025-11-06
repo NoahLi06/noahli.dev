@@ -23,6 +23,15 @@ const Socials: React.FC = () => {
             instagram
           </a>
         </li>
+        <li>
+          <a
+            href="https://open.spotify.com/playlist/7flv7yyRL9bYzGXpVsg4Kv?si=ecdfdbc678b949bf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            spotify
+          </a>
+        </li>
       </ul>
     </div>
   );
